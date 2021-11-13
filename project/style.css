@@ -1,0 +1,264 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+ }
+ .container
+ {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner1.jpg);
+   background-position: center;
+    background-size: cover;
+    position: absolute;
+ }
+ .hero
+ {
+     height: 100%;
+     width: 100%;
+     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner1.jpg);
+    background-position: center;
+     background-size: cover;
+     position: absolute;
+
+ }
+ .header{
+     position: relative;
+     padding-top: 5px;
+     margin: 20px;
+     text-align: center;
+     font-size: 30px;
+     background:linear-gradient(to right, #ff105f,#ffad06);
+ }
+ .form-box{
+     width: 380px;
+     height: 480px;
+     position: relative;
+     margin: 4% auto;
+     background: #fff;
+    padding: 5px;  
+    overflow: hidden;
+  }
+  .form-box1{
+    width: 75%;
+    height: 100%;
+    position: relative;
+    margin: 2% auto;
+    background: transparent;
+   overflow: hidden;
+ }
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background:linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    top: 100px;
+    position: absolute;
+    width: 288px;
+    transition: .5s;
+
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.input-field1
+{
+    width: 30%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border:0;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+h1{
+    margin: auto;
+
+}
+.innerdiv{
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(to right, #ff105f,#ffad06)
+}
+.leftinnerdiv{
+    float: left;
+    width: 25%;
+}
+.rightinnerdiv{
+    background: white;
+    float: right;
+    width: 75%;
+}
+.btn{
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+    overflow-x: auto;
+
+
+}
+.innerrightportion{
+    width: 100%;
+}
+#header{
+    color: white;
+}
+.client{
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.table1,th,td{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    height: auto;
+}
+th{
+    width: 25%;
+}
+td{
+    width: 25%;
+}
+#viewclient
+{
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+h2{
+    color: red;
+}
+
+/*index.php*/
+.container,
+.row,
+.h2 {
+    text-align: center;
+}
+
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login-form-1 {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+    text-align: center;
+    color: #333;
+}
+
+.login-form-2 {
+    padding: 5%;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.login-container form {
+    padding: 10%;
+}
+
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-1 .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: linear-gradient(to right, #ff105f,#ffad06);
+}
+
+.login-form-2 .btnSubmit {
+    font-weight: 600;
+    color: linear-gradient(to right, #ff105f,#ffad06);
+    background-color: #fff;
+}
+
+.login-form-2 .ForgetPwd {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-form-1 .ForgetPwd {
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
